@@ -1,4 +1,4 @@
-# Jogo STOP Distribuído (Sockets e Threads)
+# Jogo STOP (Sockets e Threads)
 
 ## 1. Introdução
 
