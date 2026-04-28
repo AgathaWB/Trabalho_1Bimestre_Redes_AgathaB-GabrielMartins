@@ -47,6 +47,7 @@ O sistema tem como finalidade:
 6. Servidor calcula pontuação:
    - Única: 3 pontos
    - Repetida: 1 ponto
+   - Nenhuma: 0 pontos
 7. Servidor envia resultados
 8. Processo se repete por várias rodadas
 9. Ao final, o vencedor é exibido
@@ -60,6 +61,7 @@ O sistema tem como finalidade:
 - Pontuação:
   - Resposta única: 3 pontos
   - Resposta repetida: 1 ponto
+  - Resposta nula: 0 pontos 
 
 ---
 

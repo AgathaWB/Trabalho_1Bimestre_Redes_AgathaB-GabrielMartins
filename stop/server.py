@@ -135,14 +135,14 @@ def jogo(conn, addr, jogador_id):
 
     if len(vencedores) == 1:
         final += (
-            f"VENCEDOR: {jogadores[vencedores[0]]} "
+            f"VENCEDOR: {jogadores[vencedores[0]-1]} "
             f"com {maior} pontos\n"
         )
     else:
         final += "EMPATE ENTRE: "
 
         for v in vencedores:
-            final += f"{jogadores[v]} "
+            final += f"{jogadores[v-1]} "
 
         final += f"com {maior} pontos\n"
 
